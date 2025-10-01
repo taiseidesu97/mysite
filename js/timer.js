@@ -1,8 +1,7 @@
-1번답입니다. https://github.com/taiseidesu97/mysite
-2번답입니다.https://taiseidesu97.github.io/mysite/
-3번은 
+const display = document.getElementById("display");
+
 setInterval(() => {
     const date= new Date(); //날짜 객체 생성
     let time = date.toLocaleTimeString(); //시간 포맷으로 변환
     display.textContent = time;
-},1000)이것입니다.
+},1000)

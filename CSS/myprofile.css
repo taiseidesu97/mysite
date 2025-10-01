@@ -105,6 +105,10 @@ h3{
     font-size: 13px;
   }
 }
+#time{
+  text-align: center;
+  font-size: 3em;
+}
 
 /* 스마트폰 (480px 이하) */
 @media (max-width: 480px) {
